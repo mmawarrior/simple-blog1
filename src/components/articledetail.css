@@ -1,7 +1,6 @@
 /* src/components/articledetail.css */
 
 .articledetail-container {
-  margin: 20px;
 }
 
 .articledetail-img {
@@ -21,6 +20,9 @@
 
 /* Media query for screens with a maximum width of 720px */
 @media (max-width: 720px) {
+  .articledetail-container {
+    margin: 20px;
+  }
   .articledetail-img,
   .articledetail-summary {
     margin-left: 0; /* Reset margin-left for smaller screens */
