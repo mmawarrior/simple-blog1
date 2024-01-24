@@ -18,13 +18,13 @@ const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
   const [reviews, setReviews] = useState([]); // Added reviews state
 
-  const handleLogin = (username, password) => {
+ /* const handleLogin = (username, password) => {
     // Your authentication logic here
     // For simplicity, just set loggedIn to true
     setLoggedIn(true);
     localStorage.setItem('isLoggedIn', 'true');
   };
-
+  */
   const handleLogout = () => {
     // Your logout logic here
     setLoggedIn(false);
