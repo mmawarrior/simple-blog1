@@ -1,0 +1,107 @@
+/* src/components/Reviews.css */
+.reviews-section {
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Hide the review section when the user is not logged in */
+.reviews-section.hidden {
+  display: none;
+}
+
+/* Style the review section when the user is logged in */
+.reviews-section.active {
+ /* background-color: #e0f7fa;  Light blue background */
+ /* border-color: #00bcd4;  Teal border color */
+}
+
+/* Add this to your CSS file */
+.review-item {
+  margin-bottom: 20px; /* Adjust as needed */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 60px; /* Adjust as needed */
+}
+
+.review-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-item p {
+  font-size: 16px;
+}
+
+.review-item img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+/* Form styling */
+form {
+  width: 60%;
+  margin: 20px auto; /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  background-color: #fff; /* White background for the form */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.styled-logout-button {
+  background-color: #ff2600;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 720px) {
+  .review-item {
+    margin-left: 0; /* Adjust as needed */
+  }
+
+  .review-item h3 {
+    font-size: 16px;
+  }
+
+  .review-item p {
+    font-size: 14px;
+  }
+}

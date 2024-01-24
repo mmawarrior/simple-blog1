@@ -1,0 +1,41 @@
+/* header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.logo-container img {
+  width: auto; /* Allow the logo to scale with its original aspect ratio */
+  max-width: 100%; /* Ensure the logo doesn't exceed its container width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+  margin-right: 10px;
+}
+
+.right-banner img {
+  width: 550px; /* Adjust the width of your right banner */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+
+/* Media query for tablet responsiveness (around 1260px) */
+@media (max-width: 1260px) {
+  .right-banner {
+    display: none; /* Hide the right banner */
+  }
+
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 720px) {
+  .header {
+    flex-direction: column; /* Stack items vertically on mobile */
+    padding: 1.3rem; /* Add padding to the header */
+  }
+
+  .logo-container img,
+  .right-banner img {
+    width: auto;
+    margin-bottom: 10px; /* Add some space between the images on mobile */
+  }
+}

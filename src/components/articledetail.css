@@ -1,0 +1,28 @@
+/* src/components/articledetail.css */
+
+.articledetail-container {
+  margin: 20px;
+}
+
+.articledetail-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 60px; /* Adjust as needed */
+}
+
+.articledetail-summary {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-left: 60px; /* Add margin-left here */
+}
+
+/* Media query for screens with a maximum width of 720px */
+@media (max-width: 720px) {
+  .articledetail-img,
+  .articledetail-summary {
+    margin-left: 0; /* Reset margin-left for smaller screens */
+  }
+}

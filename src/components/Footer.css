@@ -1,0 +1,25 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #0f172a;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; /* Add margin to the bottom */
+}
+
+.rights {
+  color: #fff; /* Adjust the color as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+@media (max-width: 600px) {
+  /* Adjust styles for mobile devices */
+  .footer {
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin to the bottom for mobile layout */
+  }
+
+  .rights {
+    font-size: 12px; /* Adjust the font size for mobile layout */
+  }
+}
