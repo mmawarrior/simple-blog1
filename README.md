@@ -1,3 +1,7 @@
+# Look at the website
+
+The website is uploaded at --> https://euphonious-cocada-6e4b18.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
